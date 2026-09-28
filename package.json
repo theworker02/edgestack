@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/edgestack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Edge timestamps and stack durations for scripts and CI receipts.",
+  "bin": {
+    "edgestack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/edgestack.git"
+  },
+  "homepage": "https://theworker02.github.io/edgestack/",
+  "keywords": [
+    "edge",
+    "stack",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
